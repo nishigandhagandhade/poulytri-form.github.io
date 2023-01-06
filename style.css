@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+
+    /* border: 1px solid red; */
+    height: 100vh;
+    width: 100%;
+
+}
+
+.navbar {
+
+    /* border: 1px solid green; */
+    height: 15%;
+}
+
+.navbar ul {
+
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+
+}
+
+ul li {
+
+    /* border: 1px solid blue; */
+    padding: 20px;
+    margin: 20px;
+    margin-left: 50px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid black;
+    position: relative;
+
+
+}
+
+.navbar ul img {
+
+    position: absolute;
+    left: 0;
+    margin-left: 30px;
+}
+
+#image {
+
+    width: 100%;
+    height: 85vh;
+    border: 3px solid black;
+}
+
+.inner {
+
+    /* border: 1px solid black; */
+    height: 70%;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.inner h1 {
+
+    font-size: 4.5rem;
+    margin: 20px;
+}
+
+.inner img {
+
+    margin: 25px;
+    margin-bottom: 50px;
+    margin: 25px;
+
+}
+
+header i {
+
+    color: brown;
+    font-size: 1.5rem;
+
+}
+
+.overview {
+
+    /* border: 1px solid red; */
+    height: 80%;
+    position: relative;
+
+
+}
+
+.overview h1 {
+
+    font-size: 3.5rem;
+    margin-left: 25px;
+
+}
+
+.box {
+
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: relative;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 10px 10px 0px rgb(237, 40, 106);
+
+
+}
+
+.box1 {
+
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 10px;
+    background-color: orangered;
+    box-shadow: 10px 10px 0px grey;
+
+
+}
+
+#image2 {
+
+    position: absolute;
+    right: 0;
+}
+
+h2 {
+
+    text-align: center;
+    margin: 14px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.box:hover {
+
+    background-color: brown;
+}
+
+.box1:hover {
+
+    background-color: rgb(100, 100, 237);
+}
+
+.facility {
+
+    /* border: 1px solid black; */
+    height: 70%;
+    margin-top: 100px;
+    position: relative;
+}
+
+h3 {
+
+    font-size: 3.5rem;
+    margin: 25px;
+    position: relative;
+
+}
+
+p {
+
+    margin: 25px;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+header {
+
+    margin: 25px;
+}
+
+video {
+
+    position: absolute;
+    right: 0;
+    margin-right: 90px;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    box-shadow: 10px 0px 0px black;
+
+}
+
+.contact {
+
+    /* border: 1px solid red; */
+    height: 70%;
+    margin-top: 50px;
+
+}
+
+h1 {
+
+    margin-left: 300px;
+    margin-top: 50px;
+    position: relative;
+}
+
+input {
+
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 300px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    box-shadow: none;
+    position: relative;
+}
+
+#btn {
+
+    padding: 10px;
+    width: 150px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    position: relative;
+
+}
+
+#btn:hover {
+
+
+    background-color: brown;
+    cursor: pointer;
+}
+
+#image3 {
+
+    position: absolute;
+    right: 0;
+    margin-right: 200px;
+}
+
+.map {
+
+    /* border: 1px solid black; */
+    height: 70%;
+    margin-top: 60px;
+    position: relative;
+}
+
+.footer {
+
+    border: 1px solid  rgb(110, 99, 99);
+    height: 25vh;
+    background-color: black;
+}
+
+#footer {
+
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    color: white;
+}
+
+footer {
+
+    display: inline;
+    margin-left: 100px;
+    font-size: 2.5rem;
+    padding: 10px;
+    background-color: rgb(156, 143, 143);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    cursor: pointer;
+
+}
+
+#twitter {
+
+    color: rgb(36, 36, 186);
+}
+
+#insta {
+
+    color: purple;
+}
+
+#facebook {
+
+    color: rgb(28, 28, 230);
+}
